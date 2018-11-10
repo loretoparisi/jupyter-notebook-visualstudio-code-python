@@ -1,6 +1,16 @@
 # jupyter-notebook-visualstudio-code-python
 A Jupyter Notebook running within VisualStudioCode Python Extension
 
+# How to Install
+You will need to install `jupyter`, `matplotlib`, `sklearn`, `pandas`. Supposed you are running `Python3`, to install these packages using `pip3` the simplest command is
+
+```sh
+sudo -H pip3 install jupyter
+sudo -H pip3 install matplotlib
+sudo -H pip3 install pandas
+sudo -H pip3 install sklearn
+```
+
 # How to Run the Notebook
 - Please first install the latest VisualStudioCode Python Extension from [here](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Then open the python example `hello.py`
