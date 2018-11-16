@@ -1,5 +1,7 @@
 #%%
 from fastprogress import master_bar, progress_bar
+from fastprogress import force_console_behavior
+master_bar, progress_bar = force_console_behavior()
 from time import sleep
 mb = master_bar(range(10))
 for i in mb:
